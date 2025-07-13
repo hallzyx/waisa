@@ -1,0 +1,7 @@
+﻿services:
+  isa:
+    image: isa
+    build:
+      context: .
+      dockerfile: isa/Dockerfile
+

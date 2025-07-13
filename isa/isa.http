@@ -1,0 +1,6 @@
+@isa_HostAddress = http://localhost:5166
+
+GET {{isa_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
