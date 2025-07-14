@@ -116,3 +116,4 @@ C:\Users\halli\OneDrive\Documentos\c20tea\wa\isa\casoisa\isa\obj\Debug\net9.0\re
 C:\Users\halli\OneDrive\Documentos\c20tea\wa\isa\casoisa\isa\obj\Debug\net9.0\isa.pdb
 C:\Users\halli\OneDrive\Documentos\c20tea\wa\isa\casoisa\isa\obj\Debug\net9.0\isa.genruntimeconfig.cache
 C:\Users\halli\OneDrive\Documentos\c20tea\wa\isa\casoisa\isa\obj\Debug\net9.0\ref\isa.dll
+C:\Users\halli\OneDrive\Documentos\c20tea\wa\isa\casoisa\isa\obj\Debug\net9.0\isa.sourcelink.json

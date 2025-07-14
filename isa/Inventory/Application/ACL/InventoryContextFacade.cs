@@ -18,13 +18,13 @@ public class InventoryContextFacade(IProductRepository productRepository, IUnitO
             throw new Exception($"Product {productSerialNumber} not found");
 
         
-        if (activityResult.Equals("PRODUCT_STILL_UNOPERATIONAL") || Convert.ToInt32(activityResult) == 0)
+        if (activityResult.Equals("PRODUCT_STILL_UNOPERATIONAL") || activityResult == "0")
         {
             certainProduct.SetStatus("UNOPERATIONAL");
             await unitOfWork.CompleteAsync();
 
         }
-        else if (activityResult.Equals("PRODUCT_IS_OPERATIONAL") || Convert.ToInt32(activityResult) == 1)
+        else if (activityResult.Equals("PRODUCT_IS_OPERATIONAL") || activityResult == "1")
         {
             certainProduct.SetStatus("OPERATIONAL");
             await unitOfWork.CompleteAsync();
